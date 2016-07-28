@@ -73,6 +73,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-bower-concat');
 
 
-  grunt.registerTask('default', ['wiredep', 'concat', 'sass', 'connect', 'watch']);
+  grunt.registerTask('default', ['wiredep', 'bower_concat', 'concat', 'sass', 'connect', 'watch']);
 
 }; //wrapper function

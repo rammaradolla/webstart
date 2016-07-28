@@ -2,11 +2,10 @@
 // ==============
   
 //Core partials
-@import "variables";
-@import "mixins";
+@import "settings";
+@import "tools";
+@import "generic";
 @import "base";
-@import "modules";
-
-// JS partials
-@import "pixgrid";
-@import "rclick";
+@import "objects";
+@import "components";
+@import "trumps";
